@@ -1,0 +1,742 @@
+{
+	"knight": {
+		"name": "Knight",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png",
+		"api-code": 26000000,
+		"info": { "elixir": 3, "type": "troop", "arena": "training camp", "rarity": "common" },
+		"stats": { "targets": "ground", "range": "melee", "hit speed": 1.2, "speed": "medium" }
+	},
+	"archers": {
+		"name": "Archers",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/W4Hmp8MTSdXANN8KdblbtHwtsbt0o749BbxNqmJYfA8.png",
+		"api-code": 26000001,
+		"info": { "elixir": 3, "type": "troop", "arena": "training camp", "rarity": "common" },
+		"stats": { "count": 2, "targets": "air & ground", "range": 5.0, "hit speed": 1.2, "speed": "medium" }
+	},
+	"goblins": {
+		"name": "Goblins",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/X_DQUye_OaS3QN6VC9CPw05Fit7wvSm3XegXIXKP--0.png",
+		"api-code": 26000002,
+		"info": { "elixir": 2, "type": "troop", "arena": 1, "rarity": "common" },
+		"stats": { "count": 3, "targets": "ground", "range": "melee", "hit speed": 1.1, "speed": "very fast" }
+	},
+	"giant": {
+		"name": "Giant",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/Axr4ox5_b7edmLsoHxBX3vmgijAIibuF6RImTbqLlXE.png",
+		"api-code": 26000003,
+		"info": { "elixir": 5, "type": "troop", "arena": "training camp", "rarity": "rare" },
+		"stats": { "targets": "buildings", "range": "melee", "hit speed": 1.5, "speed": "slow" }
+	},
+	"p.e.k.k.a": {
+		"name": "P.E.K.K.A",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/MlArURKhn_zWAZY-Xj1qIRKLVKquarG25BXDjUQajNs.png",
+		"api-code": 26000004,
+		"info": { "elixir": 7, "type": "troop", "arena": 4, "rarity": "epic" },
+		"stats": { "targets": "ground", "range": "melee", "hit speed": 1.8, "speed": "slow" }
+	},
+	"minions": {
+		"name": "Minions",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/yHGpoEnmUWPGV_hBbhn-Kk-Bs838OjGzWzJJlQpQKQA.png",
+		"api-code": 26000005,
+		"info": { "elixir": 3, "type": "troop", "arena": "training camp", "rarity": "common" },
+		"stats": { "count": 3, "targets": "air & ground", "range": "melee", "hit speed": 1.0, "speed": "fast" }
+	},
+	"balloon": {
+		"name": "Balloon",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/qBipxLo-3hhCnPrApp2Nn3b2NgrSrvwzWytvREev0CY.png",
+		"api-code": 26000006,
+		"info": { "elixir": 5, "type": "troop", "arena": 6, "rarity": "epic" },
+		"stats": { "targets": "air & ground", "range": "melee", "hit speed": 3.0, "speed": "medium" }
+	},
+	"witch": {
+		"name": "Witch",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png",
+		"api-code": 26000007,
+		"info": { "elixir": 5, "type": "troop", "arena": 2, "rarity": "epic" },
+		"stats": { "targets": "ground", "range": "melee", "hit speed": 1.0, "speed": "fast", "radius": 1.0, "count": 4, "spawn speed": 7.0 }
+	},
+	"barbarians": {
+		"name": "Barbarians",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/TvJsuu2S4yhyk1jVYUAQwdKOnW4U77KuWWOTPOWnwfI.png",
+		"api-code": 26000008,
+		"info": { "elixir": 5, "type": "troop", "arena": 3, "rarity": "common" },
+		"stats": { "count": 5, "targets": "ground", "range": "melee", "hit speed": 1.4, "speed": "medium" }
+	},
+	"golem": {
+		"name": "Golem",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/npdmCnET7jmVjJvjJQkFnNSNnDxYHDBigbvIAloFMds.png",
+		"api-code": 26000009,
+		"info": { "elixir": 8, "type": "troop", "arena": 3, "rarity": "epic" },
+		"stats": { "targets": "buildings", "range": "melee", "hit speed": 2.5, "speed": "slow", "count": 2 }
+	},
+	"skeletons": {
+		"name": "Skeletons",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/oO7iKMU5m0cdxhYPZA3nWQiAUh2yoGgdThLWB1rVSec.png",
+		"api-code": 26000010,
+		"info": { "elixir": 1, "type": "troop", "arena": 2, "rarity": "common" },
+		"stats": { "count": 3, "targets": "ground", "range": "melee", "hit speed": 1.0, "speed": "fast" }
+	},
+	"valkyrie": {
+		"name": "Valkyrie",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/0lIoYf3Y_plFTzo95zZL93JVxpfb3MMgFDDhgSDGU9A.png",
+		"api-code": 26000011,
+		"info": { "elixir": 4, "type": "troop", "arena": 2, "rarity": "rare" },
+		"stats": { "targets": "ground", "radius": 2, "range": "melee", "hit speed": 1.5, "speed": "medium" }
+	},
+	"skeleton-army": {
+		"name": "Skeleton Army",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/fAOToOi1pRy7svN2xQS6mDkhQw2pj9m_17FauaNqyl4.png",
+		"api-code": 26000012,
+		"info": { "elixir": 3, "type": "troop", "arena": "training camp", "rarity": "epic" },
+		"stats": { "count": 15, "targets": "ground", "range": "melee", "hit speed": 1.0, "speed": "fast" }
+	},
+	"bomber": {
+		"name": "Bomber",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/12n1CesxKIcqVYntjxcF36EFA-ONw7Z-DoL0_rQrbdo.png",
+		"api-code": 26000013,
+		"info": { "elixir": 3, "type": "troop", "arena": 2, "rarity": "common" },
+		"stats": { "targets": "ground", "range": 5.0, "hit speed": 1.9, "speed": "medium", "radius": 1.5 }
+	},
+	"musketeer": {
+		"name": "Musketeer",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/Tex1C48UTq9FKtAX-3tzG0FJmc9jzncUZG3bb5Vf-Ds.png",
+		"api-code": 26000014,
+		"info": { "elixir": 4, "type": "troop", "arena": "training camp", "rarity": "rare" },
+		"stats": { "targets": "air & ground", "range": 6.0, "hit speed": 1.1, "speed": "medium" }
+	},
+	"baby-dragon": {
+		"name": "Baby Dragon",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/cjC9n4AvEZJ3urkVh-rwBkJ-aRSsydIMqSAV48hAih0.png",
+		"api-code": 26000015,
+		"info": { "elixir": 4, "type": "troop", "arena": "training camp", "rarity": "epic" },
+		"stats": { "targets": "air & ground", "range": 3.5, "hit speed": 1.5, "speed": "fast", "radius": 1.2 }
+	},
+	"prince": {
+		"name": "Prince",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/3JntJV62aY0G1Qh6LIs-ek-0ayeYFY3VItpG7cb9I60.png",
+		"api-code": 26000016,
+		"info": { "elixir": 5, "type": "troop", "arena": "training camp", "rarity": "epic" },
+		"stats": { "targets": "ground", "range": "melee", "hit speed": 1.4, "speed": "medium" }
+	},
+	"wizard": {
+		"name": "Wizard",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/Mej7vnv4H_3p_8qPs_N6_GKahy6HDr7pU7i9eTHS84U.png",
+		"api-code": 26000017,
+		"info": { "elixir": 5, "type": "troop", "arena": 5, "rarity": "rare" },
+		"stats": { "targets": "air & ground", "range": 5.5, "hit speed": 1.4, "speed": "medium", "radius": 1.5 }
+	},
+	"mini-p.e.k.k.a": {
+		"name": "Mini P.E.K.K.A",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/Fmltc4j3Ve9vO_xhHHPEO3PRP3SmU2oKp2zkZQHRZT4.png",
+		"api-code": 26000018,
+		"info": { "elixir": 4, "type": "troop", "arena": "training camp", "rarity": "rare" },
+		"stats": { "targets": "ground", "range": "melee", "hit speed": 1.8, "speed": "fast" }
+	},
+	"spear-goblins": {
+		"name": "Spear Goblins",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/FSDFotjaXidI4ku_WFpVCTWS1hKGnFh1sxX0lxM43_E.png",
+		"api-code": 26000019,
+		"info": { "elixir": 2, "type": "troop", "arena": 1, "rarity": "common" },
+		"stats": { "count": 3, "targets": "air & ground", "range": 5.0, "hit speed": 1.7, "speed": "very fast" }
+	},
+	"giant-skeleton": {
+		"name": "Giant Skeleton",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/0p0gd0XaVRu1Hb1iSG1hTYbz2AN6aEiZnhaAib5O8Z8.png",
+		"api-code": 26000020,
+		"info": { "elixir": 6, "type": "troop", "arena": 2, "rarity": "epic" },
+		"stats": { "targets": "air & ground", "range": "melee", "hit speed": 1.5, "speed": "medium" }
+	},
+	"hog-rider": {
+		"name": "Hog Rider",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/Ubu0oUl8tZkusnkZf8Xv9Vno5IO29Y-jbZ4fhoNJ5oc.png",
+		"api-code": 26000021,
+		"info": { "elixir": 4, "type": "troop", "arena": 1, "rarity": "rare" },
+		"stats": { "targets": "buildings", "range": "melee", "hit speed": 1.6, "speed": "very fast" }
+	},
+	"minion-horde": {
+		"name": "Minion Horde",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/Wyjq5l0IXHTkX9Rmpap6HaH08MvjbxFp1xBO9a47YSI.png",
+		"api-code": 26000022,
+		"info": { "elixir": 5, "type": "troop", "arena": 4, "rarity": "common" },
+		"stats": { "count": 6, "targets": "air & ground", "range": "melee", "hit speed": 1.0, "speed": "fast" }
+	},
+	"ice-wizard": {
+		"name": "Ice Wizard",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/W3dkw0HTw9n1jB-zbknY2w3wHuyuLxSRIAV5fUT1SEY.png",
+		"api-code": 26000023,
+		"info": { "elixir": 3, "type": "troop", "arena": 8, "rarity": "legendary" },
+		"stats": { "targets": "air & ground", "range": 5.5, "hit speed": 1.7, "speed": "medium", "slowdown": "-35%", "radius": 1.0 }
+	},
+	"royal-giant": {
+		"name": "Royal Giant",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/mnlRaNtmfpQx2e6mp70sLd0ND-pKPF70Cf87_agEKg4.png",
+		"api-code": 26000024,
+		"info": { "elixir": 6, "type": "troop", "arena": 7, "rarity": "common" },
+		"stats": { "targets": "buildings", "range": 5.0, "hit speed": 1.7, "speed": "slow" }
+	},
+	"guards": {
+		"name": "Guards",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/1ArKfLJxYo6_NU_S9cAeIrfbXqWH0oULVJXedxBXQlU.png",
+		"api-code": 26000025,
+		"info": { "elixir": 3, "type": "troop", "arena": 7, "rarity": "epic" },
+		"stats": { "count": 3, "targets": "ground", "range": "melee", "hit speed": 1.1, "speed": "fast" }
+	},
+	"princess": {
+		"name": "Princess",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/bAwMcqp9EKVIKH3ZLm_m0MqZFSG72zG-vKxpx8aKoVs.png",
+		"api-code": 26000026,
+		"info": { "elixir": 3, "type": "troop", "arena": 7, "rarity": "legendary" },
+		"stats": { "targets": "air & ground", "radius": 2.0, "range": 9.0, "hit speed": 3.0, "speed": "medium" }
+	},
+	"dark-prince": {
+		"name": "Dark Prince",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/M7fXlrKXHu2IvpSGpk36kXVstslbR08Bbxcy0jQcln8.png",
+		"api-code": 26000027,
+		"info": { "elixir": 4, "type": "troop", "arena": 7, "rarity": "epic" },
+		"stats": { "targets": "ground", "radius": 1.1, "range": "melee", "hit speed": 1.3, "speed": "medium" }
+	},
+	"three-musketeers": {
+		"name": "Three Musketeers",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/_J2GhbkX3vswaFk1wG-dopwiHyNc_YiPhwroiKF3Mek.png",
+		"api-code": 26000028,
+		"info": { "elixir": 9, "type": "troop", "arena": 7, "rarity": "rare" },
+		"stats": { "count": 3, "targets": "air & ground", "range": 6.0, "hit speed": 1.1, "speed": "medium" }
+	},
+	"lava-hound": {
+		"name": "Lava Hound",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/unicRQ975sBY2oLtfgZbAI56ZvaWz7azj-vXTLxc0r8.png",
+		"api-code": 26000029,
+		"info": { "elixir": 7, "type": "troop", "arena": 4, "rarity": "legendary" },
+		"stats": { "targets": "air & ground", "range": "melee", "hit speed": 1.7, "speed": "medium", "count": 6 }
+	},
+	"ice-spirit": {
+		"name": "Ice Spirit",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/lv1budiafU9XmSdrDkk0NYyqASAFYyZ06CPysXKZXlA.png",
+		"api-code": 26000030,
+		"info": { "elixir": 1, "type": "troop", "arena": 8, "rarity": "common" },
+		"stats": { "targets": "air & ground", "range": 2.5, "hit speed": 0.3, "speed": "very fast", "freeze duration": 1, "radius": 1.5 }
+	},
+	"fire-spirits": {
+		"name": "Fire Spirits",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/16-BqusVvynIgYI8_Jci3LDC-r8AI_xaIYLgXqtlmS8.png",
+		"api-code": 26000031,
+		"info": { "elixir": 2, "type": "troop", "arena": 5, "rarity": "common" },
+		"stats": { "count": 3, "targets": "air & ground", "range": 2.0, "hit speed": 0.3, "speed": "very fast", "radius": 1.5 }
+	},
+	"miner": {
+		"name": "Miner",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/Y4yWvdwBCg2FpAZgs8T09Gy34WOwpLZW-ttL52Ae8NE.png",
+		"api-code": 26000032,
+		"info": { "elixir": 3, "type": "troop", "arena": 4, "rarity": "legendary" },
+		"stats": { "targets": "ground", "range": "melee", "hit speed": 1.2, "speed": "fast" }
+	},
+	"sparky": {
+		"name": "Sparky",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/2GKMkBrArZXgQxf2ygFjDs4VvGYPbx8F6Lj_68iVhIM.png",
+		"api-code": 26000033,
+		"info": { "elixir": 6, "type": "troop", "arena": 11, "rarity": "legendary" },
+		"stats": { "targets": "ground", "range": 5.0, "hit speed": 4.0, "speed": "slow", "radius": 1.8 }
+	},
+	"bowler": {
+		"name": "Bowler",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/SU4qFXmbQXWjvASxVI6z9IJuTYolx4A0MKK90sTIE88.png",
+		"api-code": 26000034,
+		"info": { "elixir": 5, "type": "troop", "arena": 8, "rarity": "epic" },
+		"stats": { "targets": "ground", "range": 5.0, "hit speed": 2.5, "speed": "slow", "radius": 1.8, "projectile range": 6 }
+	},
+	"lumberjack": {
+		"name": "Lumberjack",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/E6RWrnCuk13xMX5OE1EQtLEKTZQV6B78d00y8PlXt6Q.png",
+		"api-code": 26000035,
+		"info": { "elixir": 4, "type": "troop", "arena": 8, "rarity": "legendary" },
+		"stats": { "targets": "ground", "range": "melee", "hit speed": 0.8, "speed": "very fast" }
+	},
+	"battle-ram": {
+		"name": "Battle Ram",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/dyc50V2cplKi4H7pq1B3I36pl_sEH5DQrNHboS_dbbM.png",
+		"api-code": 26000036,
+		"info": { "elixir": 4, "type": "troop", "arena": 3, "rarity": "rare" },
+		"stats": { "targets": "ground", "range": "melee", "hit speed": 1.4, "speed": "medium", "count": 2 }
+	},
+	"inferno-dragon": {
+		"name": "Inferno Dragon",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/y5HDbKtTbWG6En6TGWU0xoVIGs1-iQpIP4HC-VM7u8A.png",
+		"api-code": 26000037,
+		"info": { "elixir": 4, "type": "troop", "arena": 6, "rarity": "legendary" },
+		"stats": { "targets": "air & ground", "range": 3.5, "hit speed": 0.4, "speed": "medium" }
+	},
+	"ice-golem": {
+		"name": "Ice Golem",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/r05cmpwV1o7i7FHodtZwW3fmjbXCW34IJCsDEV5cZC4.png",
+		"api-code": 26000038,
+		"info": { "elixir": 2, "type": "troop", "arena": 8, "rarity": "rare" },
+		"stats": { "targets": "buildings", "range": "melee", "hit speed": 2.5, "speed": "slow" }
+	},
+	"mega-minion": {
+		"name": "Mega Minion",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/-T_e4YLbuhPBKbYnBwQfXgynNpp5eOIN_0RracYwL9c.png",
+		"api-code": 26000039,
+		"info": { "elixir": 3, "type": "troop", "arena": 4, "rarity": "rare" },
+		"stats": { "targets": "air & ground", "range": "melee", "hit speed": 1.6, "speed": "medium" }
+	},
+	"dart-goblin": {
+		"name": "Dart Goblin",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/BmpK3bqEAviflqHCdxxnfm-_l3pRPJw3qxHkwS55nCY.png",
+		"api-code": 26000040,
+		"info": { "elixir": 3, "type": "troop", "arena": 9, "rarity": "rare" },
+		"stats": { "targets": "air & ground", "range": 6.5, "hit speed": 0.7, "speed": "very fast" }
+	},
+	"goblin-gang": {
+		"name": "Goblin Gang",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/NHflxzVAQT4oAz7eDfdueqpictb5vrWezn1nuqFhE4w.png",
+		"api-code": 26000041,
+		"info": { "elixir": 3, "type": "troop", "arena": 9, "rarity": "common" },
+		"stats": { "count": 2, "targets": "air & ground", "range": 5.0, "hit speed": 1.7, "speed": "very fast" }
+	},
+	"electro-wizard": {
+		"name": "Electro Wizard",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/RsFaHgB3w6vXsTjXdPr3x8l_GbV9TbOUCvIx07prbrQ.png",
+		"api-code": 26000042,
+		"info": { "elixir": 4, "type": "troop", "arena": 11, "rarity": "legendary" },
+		"stats": { "radius": 2.5, "targets": "air & ground", "range": 5.0, "hit speed": 1.8, "speed": "fast", "stun duration": 0.5 }
+	},
+	"elite-barbarians": {
+		"name": "Elite Barbarians",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/C88C5JH_F3lLZj6K-tLcMo5DPjrFmvzIb1R2M6xCfTE.png",
+		"api-code": 26000043,
+		"info": { "elixir": 6, "type": "troop", "arena": 10, "rarity": "common" },
+		"stats": { "count": 2, "targets": "ground", "range": "melee", "hit speed": 1.7, "speed": "very fast" }
+	},
+	"hunter": {
+		"name": "Hunter",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/VNabB1WKnYtYRSG7X_FZfnZjQDHTBs9A96OGMFmecrA.png",
+		"api-code": 26000044,
+		"info": { "elixir": 4, "type": "troop", "arena": 1, "rarity": "epic" },
+		"stats": { "targets": "air & ground", "radius": 0.07, "range": 4.0, "hit speed": 2.2, "speed": "medium", "projectile range": 6.5 }
+	},
+	"executioner": {
+		"name": "Executioner",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/9XL5BP2mqzV8kza6KF8rOxrpCZTyuGLp2l413DTjEoM.png",
+		"api-code": 26000045,
+		"info": { "elixir": 5, "type": "troop", "arena": 12, "rarity": "epic" },
+		"stats": { "targets": "air & ground", "range": 4.5, "hit speed": 2.4, "speed": "medium", "radius": 1.0, "projectile range": 6.5 }
+	},
+	"bandit": {
+		"name": "Bandit",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/QWDdXMKJNpv0go-HYaWQWP6p8uIOHjqn-zX7G0p3DyM.png",
+		"api-code": 26000046,
+		"info": { "elixir": 3, "type": "troop", "arena": 9, "rarity": "legendary" },
+		"stats": { "targets": "ground", "range": "melee", "hit speed": 1.0, "dash range": "3.5-6", "speed": "fast" }
+	},
+	"royal-recruits": {
+		"name": "Royal Recruits",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/jcNyYGUiXXNz3kuz8NBkHNKNREQKraXlb_Ts7rhCIdM.png",
+		"api-code": 26000047,
+		"info": { "elixir": 7, "type": "troop", "arena": 7, "rarity": "common" },
+		"stats": { "count": 6, "targets": "ground", "range": "melee", "hit speed": 1.3, "speed": "medium" }
+	},
+	"night-witch": {
+		"name": "Night Witch",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/NpCrXDEDBBJgNv9QrBAcJmmMFbS7pe3KCY8xJ5VB18A.png",
+		"api-code": 26000048,
+		"info": { "elixir": 4, "type": "troop", "arena": 5, "rarity": "legendary" },
+		"stats": { "targets": "air & ground", "range": "melee", "hit speed": 1.1, "speed": "very fast", "count": 4, "spawn speed": 7.0 }
+	},
+	"bats": {
+		"name": "Bats",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png",
+		"api-code": 26000049,
+		"info": { "elixir": 2, "type": "troop", "arena": 5, "rarity": "common" },
+		"stats": { "count": 5, "targets": "air & ground", "range": "melee", "hit speed": 1.1, "speed": "very fast" }
+	},
+	"royal-ghost": {
+		"name": "Royal Ghost",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/3En2cz0ISQAaMTHY3hj3rTveFN2kJYq-H4VxvdJNvCM.png",
+		"api-code": 26000050,
+		"info": { "elixir": 3, "type": "troop", "arena": 12, "rarity": "legendary" },
+		"stats": { "targets": "ground", "radius": 1, "range": "melee", "hit speed": 1.8, "speed": "fast" }
+	},
+	"ram-rider": {
+		"name": "Ram Rider",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/QaJyerT7f7oMyZ3Fv1glKymtLSvx7YUXisAulxl7zRI.png",
+		"api-code": 26000051,
+		"info": { "elixir": 5, "type": "troop", "arena": 10, "rarity": "legendary" },
+		"stats": { "targets": "air & ground", "range": 5.5, "hit speed": 1.1, "speed": "medium", "spawn speed": 0.0, "snare": "-85%" }
+	},
+	"zappies": {
+		"name": "Zappies",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/QZfHRpLRmutZbCr5fpLnTpIp89vLI6NrAwzGZ8tHEc4.png",
+		"api-code": 26000052,
+		"info": { "elixir": 4, "type": "troop", "arena": 11, "rarity": "rare" },
+		"stats": { "count": 3, "targets": "air & ground", "range": 4.5, "hit speed": 2.0, "speed": "medium", "stun duration": 0.5 }
+	},
+	"rascals": {
+		"name": "Rascals",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/KV48DfwVHKx9XCjzBdk3daT_Eb52Me4VgjVO7WctRc4.png",
+		"api-code": 26000053,
+		"info": { "elixir": 5, "type": "troop", "arena": 9, "rarity": "common" },
+		"stats": { "targets": "air & ground", "range": 5.0, "hit speed": 1.1, "speed": "medium", "count": 2 }
+	},
+	"cannon-cart": {
+		"name": "Cannon Cart",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/aqwxRz8HXzqlMCO4WMXNA1txynjXTsLinknqsgZLbok.png",
+		"api-code": 26000054,
+		"info": { "elixir": 5, "type": "troop", "arena": 10, "rarity": "epic" },
+		"stats": { "targets": "ground", "range": 5.5, "hit speed": 1.0, "speed": "fast" }
+	},
+	"mega-knight": {
+		"name": "Mega Knight",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
+		"api-code": 26000055,
+		"info": { "elixir": 7, "type": "troop", "arena": 7, "rarity": "legendary" },
+		"stats": { "targets": "ground", "radius": 1.3, "range": "melee", "hit speed": 1.7, "dash range": "3.5-5", "speed": "medium" }
+	},
+	"skeleton-barrel": {
+		"name": "Skeleton Barrel",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/vCB4DWCcrGbTkarjcOiVz4aNDx6GWLm0yUepg9E1MGo.png",
+		"api-code": 26000056,
+		"info": { "elixir": 3, "type": "troop", "arena": 6, "rarity": "common" },
+		"stats": { "targets": "air & ground", "range": "melee", "speed": "fast" }
+	},
+	"flying-machine": {
+		"name": "Flying Machine",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/hzKNE3QwFcrSrDDRuVW3QY_OnrDPijSiIp-PsWgFevE.png",
+		"api-code": 26000057,
+		"info": { "elixir": 4, "type": "troop", "arena": 6, "rarity": "rare" },
+		"stats": { "targets": "air & ground", "range": 6.0, "hit speed": 1.1, "speed": "fast" }
+	},
+	"wall-breakers": {
+		"name": "Wall Breakers",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png",
+		"api-code": 26000058,
+		"info": { "elixir": 2, "type": "troop", "arena": "training camp", "rarity": "epic" },
+		"stats": {
+			"count": 2,
+			"targets": "buildings",
+			"radius": 1.5,
+			"range": "melee",
+			"hit speed": 1.2,
+			"speed": "very fast",
+			"projectile range": 0
+		}
+	},
+	"royal-hogs": {
+		"name": "Royal Hogs",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
+		"api-code": 26000059,
+		"info": { "elixir": 5, "type": "troop", "arena": 7, "rarity": "rare" },
+		"stats": { "count": 4, "targets": "buildings", "range": "melee", "hit speed": 1.2, "speed": "very fast" }
+	},
+	"goblin-giant": {
+		"name": "Goblin Giant",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/SoW16cY3jXBwaTDvb39DkqiVsoFVaDWbzf5QBYphJrY.png",
+		"api-code": 26000060,
+		"info": { "elixir": 6, "type": "troop", "arena": 9, "rarity": "epic" },
+		"stats": { "targets": "air & ground", "range": 5.5, "hit speed": 1.7, "speed": "very fast", "count": 2, "spawn speed": 0.0 }
+	},
+	"fisherman": {
+		"name": "Fisherman",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/U2KZ3g0wyufcuA5P2Xrn3Z3lr1WiJmc5S0IWOZHgizQ.png",
+		"api-code": 26000061,
+		"info": { "elixir": 3, "type": "troop", "arena": 10, "rarity": "legendary" },
+		"stats": { "targets": "ground", "range": "melee", "hit speed": 1.5, "speed": "medium" }
+	},
+	"magic-archer": {
+		"name": "Magic Archer",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/Avli3W7BxU9HQ2SoLiXnBgGx25FoNXUSFm7OcAk68ek.png",
+		"api-code": 26000062,
+		"info": { "elixir": 4, "type": "troop", "arena": 5, "rarity": "legendary" },
+		"stats": { "targets": "air & ground", "range": 7.0, "hit speed": 1.1, "speed": "medium", "radius": 0.3, "projectile range": 11 }
+	},
+	"electro-dragon": {
+		"name": "Electro Dragon",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/tN9h6lnMNPCNsx0LMFmvpHgznbDZ1fBRkx-C7UfNmfY.png",
+		"api-code": 26000063,
+		"info": { "elixir": 5, "type": "troop", "arena": 11, "rarity": "epic" },
+		"stats": { "targets": "air & ground", "range": 3.5, "hit speed": 2.1, "speed": "medium", "freeze duration": 0.5 }
+	},
+	"firecracker": {
+		"name": "Firecracker",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png",
+		"api-code": 26000064,
+		"info": { "elixir": 3, "type": "troop", "arena": 10, "rarity": "common" },
+		"stats": { "targets": "air & ground", "range": 6.0, "hit speed": 3.0, "speed": "fast" }
+	},
+	"elixir-golem": {
+		"name": "Elixir Golem",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/puhMsZjCIqy21HW3hYxjrk_xt8NIPyFqjRy-BeLKZwo.png",
+		"api-code": 26000065,
+		"info": { "elixir": 3, "type": "troop", "arena": 11, "rarity": "rare" },
+		"stats": { "targets": "buildings", "range": "melee", "hit speed": 1.3, "speed": "medium", "count": 2 }
+	},
+	"battle-healer": {
+		"name": "Battle Healer",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/KdwXcoigS2Kg-cgA7BJJIANbUJG6SNgjetRQ-MegZ08.png",
+		"api-code": 26000066,
+		"info": { "elixir": 4, "type": "troop", "arena": 12, "rarity": "rare" },
+		"stats": { "targets": "ground", "range": "melee", "hit speed": 1.5, "speed": "medium" }
+	},
+	"cannon": {
+		"name": "Cannon",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/nZK1y-beLxO5vnlyUhK6-2zH2NzXJwqykcosqQ1cmZ8.png",
+		"api-code": 27000000,
+		"info": { "elixir": 3, "type": "building", "arena": 3, "rarity": "common" },
+		"stats": { "deploy time": 1, "targets": "ground", "range": 5.5, "hit speed": 1.0, "lifetime": 30 }
+	},
+	"goblin-hut": {
+		"name": "Goblin Hut",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/l8ZdzzNLcwB4u7ihGgxNFQOjCT_njFuAhZr7D6PRF7E.png",
+		"api-code": 27000001,
+		"info": { "elixir": 5, "type": "building", "arena": 1, "rarity": "rare" },
+		"stats": {
+			"deploy time": 1,
+			"targets": "air & ground",
+			"lifetime": 40,
+			"spawn speed": 4.5,
+			"range": 5.0,
+			"hit speed": 1.7,
+			"speed": "very fast",
+			"count": 3
+		}
+	},
+	"mortar": {
+		"name": "Mortar",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/lPOSw6H7YOHq2miSCrf7ZDL3ANjhJdPPDYOTujdNrVE.png",
+		"api-code": 27000002,
+		"info": { "elixir": 4, "type": "building", "arena": 6, "rarity": "common" },
+		"stats": { "deploy time": 3.5, "targets": "ground", "range": 11.5, "hit speed": 5.0, "lifetime": 30, "radius": 2.0 }
+	},
+	"inferno-tower": {
+		"name": "Inferno Tower",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/GSHY_wrooMMLET6bG_WJB8redtwx66c4i80ipi4gYOM.png",
+		"api-code": 27000003,
+		"info": { "elixir": 5, "type": "building", "arena": 4, "rarity": "rare" },
+		"stats": { "deploy time": 1, "targets": "air & ground", "range": 6.0, "hit speed": 0.4, "lifetime": 30 }
+	},
+	"bomb-tower": {
+		"name": "Bomb Tower",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/rirYRyHPc97emRjoH-c1O8uZCBzPVnToaGuNGusF3TQ.png",
+		"api-code": 27000004,
+		"info": { "elixir": 4, "type": "building", "arena": 10, "rarity": "rare" },
+		"stats": { "deploy time": 1, "targets": "air & ground", "range": 6.0, "hit speed": 1.6, "lifetime": 25, "radius": 1.5 }
+	},
+	"barbarian-hut": {
+		"name": "Barbarian Hut",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/ho0nOG2y3Ch86elHHcocQs8Fv_QNe0cFJ2CijsxABZA.png",
+		"api-code": 27000005,
+		"info": { "elixir": 7, "type": "building", "arena": 3, "rarity": "rare" },
+		"stats": {
+			"deploy time": 1,
+			"targets": "ground",
+			"lifetime": 50,
+			"count": 2,
+			"spawn speed": 13.0,
+			"range": "melee",
+			"hit speed": 1.4,
+			"speed": "medium"
+		}
+	},
+	"tesla": {
+		"name": "Tesla",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/OiwnGrxFMNiHetYEerE-UZt0L_uYNzFY7qV_CA_OxR4.png",
+		"api-code": 27000006,
+		"info": { "elixir": 4, "type": "building", "arena": 11, "rarity": "common" },
+		"stats": { "deploy time": 1, "targets": "air & ground", "range": 5.5, "hit speed": 1.1, "lifetime": 35 }
+	},
+	"elixir-collector": {
+		"name": "Elixir Collector",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/BGLo3Grsp81c72EpxLLk-Sofk3VY56zahnUNOv3JcT0.png",
+		"api-code": 27000007,
+		"info": { "elixir": 6, "type": "building", "arena": 8, "rarity": "rare" },
+		"stats": { "deploy time": 1, "production speed": 8.5, "lifetime": 70 }
+	},
+	"x-bow": {
+		"name": "X-Bow",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/zVQ9Hme1hlj9Dc6e1ORl9xWwglcSrP7ejow5mAhLUJc.png",
+		"api-code": 27000008,
+		"info": { "elixir": 6, "type": "building", "arena": 6, "rarity": "epic" },
+		"stats": { "deploy time": 3.5, "targets": "ground", "range": 11.5, "hit speed": 0.3, "lifetime": 40 }
+	},
+	"tombstone": {
+		"name": "Tombstone",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png",
+		"api-code": 27000009,
+		"info": { "elixir": 3, "type": "building", "arena": 2, "rarity": "rare" },
+		"stats": {
+			"deploy time": 1,
+			"targets": "ground",
+			"lifetime": 40,
+			"spawn speed": 3.1,
+			"range": "melee",
+			"hit speed": 1.0,
+			"speed": "fast",
+			"count": 3
+		}
+	},
+	"furnace": {
+		"name": "Furnace",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/iqbDiG7yYRIzvCPXdt9zPb3IvMt7F7Gi4wIPnh2x4aI.png",
+		"api-code": 27000010,
+		"info": { "elixir": 4, "type": "building", "arena": 5, "rarity": "rare" },
+		"stats": {
+			"deploy time": 1,
+			"targets": "air & ground",
+			"lifetime": 50,
+			"count": 2,
+			"spawn speed": 9.9,
+			"range": 2.0,
+			"hit speed": 0.3,
+			"speed": "very fast",
+			"radius": 1.5
+		}
+	},
+	"goblin-cage": {
+		"name": "Goblin Cage",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/vD24bBgK4rSq7wx5QEbuqChtPMRFviL_ep76GwQw1yA.png",
+		"api-code": 27000011,
+		"info": { "elixir": 4, "type": "building", "arena": 12, "rarity": "rare" },
+		"stats": { "deploy time": 1, "targets": "ground", "range": "melee", "lifetime": 20, "hit speed": 1.1, "speed": "fast" }
+	},
+	"fireball": {
+		"name": "Fireball",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png",
+		"api-code": 28000000,
+		"info": { "elixir": 4, "type": "spell", "arena": "training camp", "rarity": "rare" },
+		"stats": { "targets": "air & ground", "radius": 2.5 }
+	},
+	"arrows": {
+		"name": "Arrows",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/Flsoci-Y6y8ZFVi5uRFTmgkPnCmMyMVrU7YmmuPvSBo.png",
+		"api-code": 28000001,
+		"info": { "elixir": 3, "type": "spell", "arena": "training camp", "rarity": "common" },
+		"stats": { "targets": "air & ground", "radius": 4.0 }
+	},
+	"rage": {
+		"name": "Rage",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/bGP21OOmcpHMJ5ZA79bHVV2D-NzPtDkvBskCNJb7pg0.png",
+		"api-code": 28000002,
+		"info": { "elixir": 2, "type": "spell", "arena": 10, "rarity": "epic" },
+		"stats": { "radius": 5, "rage boost": "35%" }
+	},
+	"rocket": {
+		"name": "Rocket",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/Ie07nQNK9CjhKOa4-arFAewi4EroqaA-86Xo7r5tx94.png",
+		"api-code": 28000003,
+		"info": { "elixir": 6, "type": "spell", "arena": 6, "rarity": "rare" },
+		"stats": { "targets": "air & ground", "radius": 2.0 }
+	},
+	"goblin-barrel": {
+		"name": "Goblin Barrel",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/CoZdp5PpsTH858l212lAMeJxVJ0zxv9V-f5xC8Bvj5g.png",
+		"api-code": 28000004,
+		"info": { "elixir": 3, "type": "spell", "arena": 1, "rarity": "epic" },
+		"stats": { "targets": "ground" }
+	},
+	"freeze": {
+		"name": "Freeze",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/I1M20_Zs_p_BS1NaNIVQjuMJkYI_1-ePtwYZahn0JXQ.png",
+		"api-code": 28000005,
+		"info": { "elixir": 4, "type": "spell", "arena": 8, "rarity": "epic" },
+		"stats": { "radius": 3, "targets": "air & ground", "duration": 4.0 }
+	},
+	"mirror": {
+		"name": "Mirror",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/wC6Cm9rKLEOk72zTsukVwxewKIoO4ZcMJun54zCPWvA.png",
+		"api-code": 28000006,
+		"info": { "elixir": 1, "type": "spell", "arena": 12, "rarity": "epic" },
+		"stats": {}
+	},
+	"lightning": {
+		"name": "Lightning",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/fpnESbYqe5GyZmaVVYe-SEu7tE0Kxh_HZyVigzvLjks.png",
+		"api-code": 28000007,
+		"info": { "elixir": 6, "type": "spell", "arena": 4, "rarity": "epic" },
+		"stats": { "radius": 3.5, "duration": 1.5 }
+	},
+	"zap": {
+		"name": "Zap",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png",
+		"api-code": 28000008,
+		"info": { "elixir": 2, "type": "spell", "arena": 4, "rarity": "common" },
+		"stats": { "radius": 2.5, "targets": "air & ground" }
+	},
+	"poison": {
+		"name": "Poison",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/98HDkG2189yOULcVG9jz2QbJKtfuhH21DIrIjkOjxI8.png",
+		"api-code": 28000009,
+		"info": { "elixir": 4, "type": "spell", "arena": 5, "rarity": "epic" },
+		"stats": { "radius": 3.5, "duration": 8.0 }
+	},
+	"graveyard": {
+		"name": "Graveyard",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/Icp8BIyyfBTj1ncCJS7mb82SY7TPV-MAE-J2L2R48DI.png",
+		"api-code": 28000010,
+		"info": { "elixir": 5, "type": "spell", "arena": 12, "rarity": "legendary" },
+		"stats": {
+			"radius": 4,
+			"duration": 10.0,
+			"deploy timw": 1,
+			"spawn speed": 0.5,
+			"targets": "ground",
+			"range": "melee",
+			"hit speed": 1.0,
+			"speed": "fast"
+		}
+	},
+	"the-log": {
+		"name": "The Log",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/_iDwuDLexHPFZ_x4_a0eP-rxCS6vwWgTs6DLauwwoaY.png",
+		"api-code": 28000011,
+		"info": { "elixir": 2, "type": "spell", "arena": 6, "rarity": "legendary" },
+		"stats": { "targets": "ground", "range": 11.1 }
+	},
+	"tornado": {
+		"name": "Tornado",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/QJB-QK1QJHdw4hjpAwVSyZBozc2ZWAR9pQ-SMUyKaT0.png",
+		"api-code": 28000012,
+		"info": { "elixir": 3, "type": "spell", "arena": 5, "rarity": "epic" },
+		"stats": { "radius": 5.5, "duration": 1.1 }
+	},
+	"clone": {
+		"name": "Clone",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/mHVCet-1TkwWq-pxVIU2ZWY9_2z7Z7wtP25ArEUsP_g.png",
+		"api-code": 28000013,
+		"info": { "elixir": 3, "type": "spell", "arena": 11, "rarity": "epic" },
+		"stats": { "radius": 3, "duration": 1.0, "clone hitpoints": 1, "clone shield hitpoints": 1 }
+	},
+	"earthquake": {
+		"name": "Earthquake",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/XeQXcrUu59C52DslyZVwCnbi4yamID-WxfVZLShgZmE.png",
+		"api-code": 28000014,
+		"info": { "elixir": 3, "type": "spell", "arena": 9, "rarity": "rare" },
+		"stats": { "radius": 3.5, "duration": 3.0, "earthquake slow": "-150%" }
+	},
+	"barbarian-barrel": {
+		"name": "Barbarian Barrel",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png",
+		"api-code": 28000015,
+		"info": { "elixir": 2, "type": "spell", "arena": 3, "rarity": "epic" },
+		"stats": { "targets": "ground", "range": 5.0 }
+	},
+	"heal-spirit": {
+		"name": "Heal Spirit",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/GITl06sa2nGRLPvboyXbGEv5E3I-wAwn1Eqa5esggbc.png",
+		"api-code": 28000016,
+		"info": { "elixir": 1, "type": "spell", "arena": 10, "rarity": "rare" },
+		"stats": {}
+	},
+	"giant-snowball": {
+		"name": "Giant Snowball",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/7MaJLa6hK9WN2_VIshuh5DIDfGwm0wEv98gXtAxLDPs.png",
+		"api-code": 28000017,
+		"info": { "elixir": 2, "type": "spell", "arena": 8, "rarity": "common" },
+		"stats": { "targets": "air & ground", "radius": 2.5 }
+	},
+	"royal-delivery": {
+		"name": "Royal Delivery",
+		"image-url": "https://api-assets.clashroyale.com/cards/300/LPg7AGjGI3_xmi7gLLgGC50yKM1jJ2teWkZfoHJcIZo.png",
+		"api-code": 28000018,
+		"info": { "elixir": 3, "type": "spell", "arena": 12, "rarity": "common" },
+		"stats": { "radius": 3, "duration": 2.0 }
+	}
+}

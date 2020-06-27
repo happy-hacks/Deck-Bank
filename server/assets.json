@@ -1,0 +1,20 @@
+{
+	"deck-icon-url": "https://pixelcrux.com/Clash_Royale/Deck_Builder/Icon.png",
+	"elixir-icon-url": "https://www.deckshop.pro/img/elixirdrop.png",
+	"arenas": [
+		{ "name": "Training Camp", "arena": 0, "img-url": "https://www.deckshop.pro/img/arena/arena_training.png" },
+		{ "name": "Goblin Stadium", "arena": 1, "img-url": "https://www.deckshop.pro/img/arena/arena_goblin.png" },
+		{ "name": "Bone Pit", "arena": 2, "img-url": "https://www.deckshop.pro/img/arena/arena_bone.png" },
+		{ "name": "Barbarian Bowl", "arena": 3, "img-url": "https://www.deckshop.pro/img/arena/arena_barbarian.png" },
+		{ "name": "P.E.K.K.A's Playhouse", "arena": 4, "img-url": "https://www.deckshop.pro/img/arena/arena_pekka.png" },
+		{ "name": "Spell Valley", "arena": 5, "img-url": "https://www.deckshop.pro/img/arena/arena_spell.png" },
+		{ "name": "Builder's Workshop", "arena": 6, "img-url": "https://www.deckshop.pro/img/arena/arena_builders.png" },
+		{ "name": "Royal Arena", "arena": 7, "img-url": "https://www.deckshop.pro/img/arena/arena_royal.png" },
+		{ "name": "Frozen Peak", "arena": 8, "img-url": "https://www.deckshop.pro/img/arena/arena_ice.png" },
+		{ "name": "Jungle Arena", "arena": 9, "img-url": "https://www.deckshop.pro/img/arena/arena_jungle.png" },
+		{ "name": "Hog Mountain", "arena": 10, "img-url": "https://www.deckshop.pro/img/arena/arena_hogmountain.png" },
+		{ "name": "Electro Valley", "arena": 11, "img-url": "https://www.deckshop.pro/img/arena/arena_electro.png" },
+		{ "name": "Spooky Town", "arena": 12, "img-url": "https://www.deckshop.pro/img/arena/arena_spooky.png" },
+		{ "name": "Legendary Arena", "arena": 13, "img-url": "https://www.deckshop.pro/img/arena/arena_dream.png" }
+	]
+}
