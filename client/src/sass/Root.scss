@@ -1,23 +1,23 @@
 .App {
-	padding: 2rem;
-	min-height: 100vh;
-	text-align: center;
-	color: #fff;
+    height: 100%;
+    text-align: center;
+    color: #fff;
 
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer {
-	font-family: Arial, Helvetica, sans-serif;
-	opacity: 0.75;
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.75;
 
-	a {
-		color: #fff;
-	}
+    a {
+        color: #fff;
+    }
 
-	a:hover {
-		color: fuchsia;
-	}
+    a:hover {
+        color: fuchsia;
+    }
 }

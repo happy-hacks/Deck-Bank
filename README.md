@@ -3,5 +3,5 @@
 ## Run python server
 _bash_
 ```bash
-python server/app.py
+cd server && python app.py
 ```

@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 import json
 
 from flask_cors import CORS
@@ -16,9 +16,21 @@ def cards():
     return jsonify(data)
 
 
-@app.route('/login')
-def login():
-    pass
+@app.route('/sign-in', methods=['POST'])
+def signIn():
+    with open('users.json', 'r') as file:
+        data = json.load(file)
+
+    username = request.json['username']
+    password = request.json['password']
+
+    try:
+        if data[username] == password:
+            return jsonify('authorized'), 202
+        else:
+            return jsonify('unauthorized'), 401
+    except:
+        return jsonify('unauthorized'), 401
 
 
 @app.route('/deck')

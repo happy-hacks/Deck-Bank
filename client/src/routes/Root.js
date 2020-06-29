@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Decks from './Decks.js';
 import CreateDeck from './CreateDeck.js';
 import Profile from './Profile.js';
-import SignIn from './SignIn.js';
+import SignIn from './signin.module/SignIn.js';
 import SignUp from './SignUp.js';
 import Error from './Error.js';
 

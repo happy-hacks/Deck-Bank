@@ -1,21 +1,28 @@
 @font-face {
-	font-family: 'SuperCell';
-	src: url('../assets/Supercell-magic-webfont.x-font-ttf');
+    font-family: 'SuperCell';
+    src: url('../assets/Supercell-magic-webfont.x-font-ttf');
 }
 
 body {
-	margin: 0;
-	font-family: 'SuperCell', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
-		'Helvetica Neue', sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    margin: 1rem;
+    font-family: 'SuperCell', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
-	height: 100vh;
+    height: calc(100vh - 2rem);
 
-	background: linear-gradient(#00d1ff, rgb(19, 81, 135));
-	background-image: radial-gradient(#00d1ff, rgb(19, 81, 135));
+    background: linear-gradient(#00d1ff, rgb(19, 81, 135));
+    background-image: radial-gradient(#00d1ff, rgb(19, 81, 135));
+
+    overflow: hidden;
 }
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+input {
+    font-family: 'SuperCell', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+}
+
+#root {
+    height: 100%;
 }
