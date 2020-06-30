@@ -28,7 +28,7 @@ def signIn():
         if data[username] == password:
             return jsonify('authorized'), 202
         else:
-            return jsonify('unauthorized'), 401
+            raise ValueError
     except:
         return jsonify('unauthorized'), 401
 
