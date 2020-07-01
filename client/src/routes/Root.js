@@ -2,14 +2,14 @@ import React from 'react';
 import '../sass/Root.scss';
 
 // libraries
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // routes
 import Decks from './Decks.js';
 import CreateDeck from './CreateDeck.js';
 import Profile from './Profile.js';
-import SignIn from './signin.module/SignIn.js';
-import SignUp from './SignUp.js';
+import SignIn from './SignIn/SignIn.js';
+import SignUp from './SignUp/SignUp.js';
 import Error from './Error.js';
 
 // side bar
@@ -31,14 +31,17 @@ const Root = () => {
 
 					<Route path="/profile">
 						<Profile />
+						<SideBar />
 					</Route>
 
 					<Route path="/decks">
 						<Decks />
+						<SideBar />
 					</Route>
 
 					<Route path="/create-deck">
 						<CreateDeck />
+						<SideBar />
 					</Route>
 
 					<Route path="*">

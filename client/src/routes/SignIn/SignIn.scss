@@ -1,0 +1,67 @@
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+
+	flex: 1;
+	position: relative;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	& > * {
+		margin: 1rem;
+	}
+
+	input {
+		background: none;
+		border-style: none;
+
+		color: #fff;
+		font-size: 2rem;
+		text-align: center;
+		width: 60%;
+		border-bottom: 1px solid #fff;
+		padding: 1.4rem;
+
+		&::placeholder {
+			color: #fff;
+			opacity: 0.8;
+			font-size: 1.6rem;
+		}
+
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
+.title {
+	text-align: left;
+	margin: 2rem;
+	position: relative;
+
+	h1 {
+		margin-top: 0.5rem;
+		font-size: 3rem;
+	}
+
+	span {
+		font-size: 1.2rem;
+		letter-spacing: 0.5rem;
+	}
+
+	animation: floating 1s ease-in infinite alternate;
+}
+
+@keyframes floating {
+	0% {
+		top: 0rem;
+	}
+	100% {
+		top: 0.5rem;
+	}
+}
