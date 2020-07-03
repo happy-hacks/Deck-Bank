@@ -1,12 +1,89 @@
 .group-selector {
 	display: 'flex';
 	justify-content: 'space-evenly';
+
+	* {
+		margin: 1rem;
+		opacity: 0.6;
+		cursor: pointer;
+		font-size: 1.2rem;
+
+		transition: all 250ms;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+
+	.selected {
+		opacity: 1;
+		font-size: 1.6rem;
+		border-bottom: 2px solid #fff;
+	}
 }
 
 .card-container {
 	flex: 1;
+	margin: 2rem;
+	padding: 1rem;
+
+	// background-color: rgba(255, 255, 255, 0.2);
+	// border-radius: 1rem;
+	// border: 2px solid #fff;
 }
 
-.cards {
-	height: 100%;
+.deck {
+	margin: 1rem;
+
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.group-label {
+	.arena {
+		height: 150px;
+	}
+
+	.elixir {
+		img {
+			height: 2rem;
+			margin: 0 0.5rem;
+		}
+	}
+
+	.common {
+		font-size: 3rem;
+		letter-spacing: 0.2rem;
+		background: -webkit-linear-gradient(rgb(148, 247, 255), rgb(118, 220, 255));
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		filter: drop-shadow(2px 2px #fff);
+	}
+
+	.rare {
+		font-size: 3rem;
+		letter-spacing: 0.2rem;
+		background: -webkit-linear-gradient(rgb(225, 217, 147), rgb(255, 204, 122));
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		filter: drop-shadow(2px 2px #fff);
+	}
+
+	.epic {
+		font-size: 3rem;
+		letter-spacing: 0.2rem;
+		background: -webkit-linear-gradient(rgb(233, 149, 255), rgb(212, 114, 255));
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		filter: drop-shadow(2px 2px #fff);
+	}
+
+	.legendary {
+		font-size: 3rem;
+		letter-spacing: 0.2rem;
+		background: linear-gradient(rgb(252, 162, 255), rgb(255, 255, 255), rgb(62, 218, 255));
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		filter: drop-shadow(2px 2px #fff);
+	}
 }

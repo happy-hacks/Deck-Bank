@@ -6,7 +6,9 @@ import { TransitionRoute as Route } from './statics/Transition';
 const Decks = (props) => {
 	return (
 		<Route {...props}>
-			<h2>Decks</h2>;
+			<main>
+				<h2>Decks</h2>
+			</main>
 		</Route>
 	);
 };

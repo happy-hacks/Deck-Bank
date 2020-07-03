@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../sass/SignIn.scss';
+import '../sass/Title.scss';
 
 // libraries
 import { Redirect, Link } from 'react-router-dom';
@@ -36,21 +36,24 @@ const SignIn = (props) => {
 
 	return (
 		<Route {...props}>
+			{/* modulate */}
 			<header>
-				<div className="title">
+				<div className="Title">
 					<span>Clash Royale</span>
 					<h1>DECK BANK</h1>
 				</div>
 				<h1>sign in</h1>
 			</header>
-			<Form method="POST" url="http://127.0.0.1:5000/sign-in" onSuccess={handleSuccess} onFailure={handleNotification}>
-				<input type="text" placeholder="username" name="username" autoFocus />
-				<input type="password" placeholder="password" name="password" />
-				<span>
-					No account? <Link to="sign-up">sign up</Link>
-				</span>
-				<SubmitButton component={<BigButton text="Enter" />} />
-			</Form>
+			<main>
+				<Form method="POST" url="http://127.0.0.1:5000/sign-in" onSuccess={handleSuccess} onFailure={handleNotification}>
+					<input type="text" placeholder="username" name="username" autoFocus />
+					<input type="password" placeholder="password" name="password" />
+					<span>
+						No account? <Link to="sign-up">sign up</Link>
+					</span>
+					<SubmitButton component={<BigButton text="Enter" />} />
+				</Form>
+			</main>
 
 			<BackgroundImage src={KingImage} alt="king image" />
 			{notification && <Notification message={notification} resetNotification={resetNotification} />}

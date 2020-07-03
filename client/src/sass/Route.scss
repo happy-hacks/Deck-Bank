@@ -2,7 +2,7 @@
 
 body {
 	margin: 0;
-	height: 100vh;
+	height: calc(100vh - 2rem);
 	width: 100vw;
 
 	font-family: $super-cell-font;
@@ -10,7 +10,7 @@ body {
 	background: linear-gradient(#00d1ff, rgb(19, 81, 135));
 	background-image: radial-gradient(#00d1ff, rgb(19, 81, 135));
 
-	overflow: hidden;
+	overflow-x: hidden;
 
 	#root {
 		height: 100%;
@@ -18,7 +18,7 @@ body {
 }
 
 .TransitionRoute {
-	height: calc(100vh - 2rem);
+	min-height: calc(100vh - 2rem);
 	width: 100vw;
 	text-align: center;
 	color: #fff;
@@ -30,16 +30,26 @@ body {
 	overflow: hidden;
 
 	position: absolute;
+
+	.BackgroundImage {
+		position: absolute;
+		opacity: 0.6;
+		z-index: -10;
+		right: 0;
+		transform: translateX(40%);
+		height: 80%;
+		max-height: 512px;
+	}
 }
 
 header {
-	// header styles
+	margin: 2rem;
 }
 
 main {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
+	// display: flex;
+	//flex-direction: column;
+	// justify-content: space-evenly;
 
 	flex: 1;
 	position: relative;
@@ -58,4 +68,31 @@ footer {
 	a:hover {
 		color: fuchsia;
 	}
+}
+
+::-webkit-scrollbar {
+	width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0);
+	transition: all 1s;
+	border-radius: 1rem;
+}
+
+::-webkit-scrollbar-track:hover {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.4);
+	transition: all 1s;
+	border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(255, 255, 255, 1);
 }

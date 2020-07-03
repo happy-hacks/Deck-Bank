@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../sass/SignUp.scss';
+import '../sass/Title.scss';
 
 // libraries
 import { Redirect, Link } from 'react-router-dom';
@@ -37,7 +37,7 @@ const SignUp = (props) => {
 	return (
 		<Route {...props}>
 			<header>
-				<div className="title">
+				<div className="Title">
 					<span>Clash Royale</span>
 					<h1>DECK BANK</h1>
 				</div>

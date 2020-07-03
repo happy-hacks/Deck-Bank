@@ -17,4 +17,12 @@ const Card = ({ data }) => {
 	);
 };
 
+export const TemplateCard = () => {
+	return (
+		<div className="template-card">
+			<span>empty</span>
+		</div>
+	);
+};
+
 export default Card;
