@@ -1,7 +1,14 @@
 import React from 'react';
 
-const Error = () => {
-	return <h2>Error</h2>;
+// components
+import { TransitionRoute as Route } from './statics/Transition';
+
+const Error = (props) => {
+	return (
+		<Route {...props}>
+			<h2>Error</h2>;
+		</Route>
+	);
 };
 
 export default Error;

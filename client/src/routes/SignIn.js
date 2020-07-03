@@ -1,19 +1,20 @@
 import React, { useState } from 'react';
-import './SignIn.scss';
+import '../sass/SignIn.scss';
 
 // libraries
 import { Redirect, Link } from 'react-router-dom';
 
 // components
-import Form, { SubmitButton } from '../components/Form';
-import BigButton from '../components/BigButton/BigButton';
-import Notification from '../components/Notification/Notification';
-import BackgroundImage from '../components/BackgroundImage/BackgroundImage';
+import Form, { SubmitButton } from './components/Form';
+import BigButton from './components/BigButton';
+import Notification from './statics/Notification';
+import BackgroundImage from './components/BackgroundImage';
+import { TransitionRoute as Route } from './statics/Transition';
 
 // assets
-import KingImage from '../../assets/king-laugh.png';
+import KingImage from '../assets/king-laugh.png';
 
-const SignIn = () => {
+const SignIn = (props) => {
 	const [authorized, setAuthorized] = useState(false);
 	const [notification, setNotification] = useState(false);
 
@@ -34,14 +35,14 @@ const SignIn = () => {
 	};
 
 	return (
-		<main>
-			<div>
+		<Route {...props}>
+			<header>
 				<div className="title">
 					<span>Clash Royale</span>
 					<h1>DECK BANK</h1>
 				</div>
 				<h1>sign in</h1>
-			</div>
+			</header>
 			<Form method="POST" url="http://127.0.0.1:5000/sign-in" onSuccess={handleSuccess} onFailure={handleNotification}>
 				<input type="text" placeholder="username" name="username" autoFocus />
 				<input type="password" placeholder="password" name="password" />
@@ -53,7 +54,7 @@ const SignIn = () => {
 
 			<BackgroundImage src={KingImage} alt="king image" />
 			{notification && <Notification message={notification} resetNotification={resetNotification} />}
-		</main>
+		</Route>
 	);
 };
 

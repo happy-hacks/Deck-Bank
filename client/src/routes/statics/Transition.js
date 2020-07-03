@@ -1,14 +1,23 @@
 import React from 'react';
+import '../../sass/Route.scss';
 
 // libraries
 import { Route, Switch, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 
+// components
+import SideBar from './SideBar';
+import Footer from './Footer';
+
+// resources
+// https://www.youtube.com/watch?v=qJt-FtzJ5fo&t=575s
+// https://www.framer.com/motion/
+
 export const TransitionSwitch = ({ children }) => {
 	const location = useLocation();
 
 	return (
-		<AnimatePresence exitBeforeEnter>
+		<AnimatePresence>
 			<Switch location={location} key={location.pathname}>
 				{children}
 			</Switch>
@@ -26,7 +35,11 @@ export const TransitionRoute = ({ children, ...props }) => {
 
 	return (
 		<Route {...props}>
-			<motion.main {...options}>{children}</motion.main>
+			<motion.div className="TransitionRoute" {...options}>
+				{children}
+				<Footer />
+				{false && <SideBar /> /* show on authorized */}
+			</motion.div>
 		</Route>
 	);
 };

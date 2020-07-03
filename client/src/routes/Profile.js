@@ -1,7 +1,14 @@
 import React from 'react';
 
-const Profile = () => {
-	return <h2>Profile</h2>;
+// components
+import { TransitionRoute as Route } from './statics/Transition';
+
+const Profile = (props) => {
+	return (
+		<Route {...props}>
+			<h2>Profile</h2>;
+		</Route>
+	);
 };
 
 export default Profile;

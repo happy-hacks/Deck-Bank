@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../../sass/Form.scss';
 
 // libraries
 import Loader from 'react-loader-spinner';
@@ -21,7 +22,7 @@ const initializeInputs = (children) => {
 	return names;
 };
 
-export default ({ method, url, onSuccess, onFailure, children }) => {
+const Form = ({ method, url, onSuccess, onFailure, children }) => {
 	const [inputs, setInputs] = useState(initializeInputs(children));
 	const [loading, setLoading] = useState(false);
 
@@ -77,3 +78,5 @@ export const SubmitButton = ({ label, component, onClick }) => {
 		</button>
 	);
 };
+
+export default Form;

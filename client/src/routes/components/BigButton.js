@@ -1,7 +1,7 @@
 import React from 'react';
-import './BigButton.scss'; // some bug with positioning
+import '../../sass/BigButton.scss'; // some bug with positioning
 
-export default ({ text, onClick }) => {
+const BigButton = ({ text, onClick }) => {
 	return (
 		<div className="Button" style={containerStyle} onClick={onClick}>
 			<svg width="210" height="110" viewBox="0 0 210 110" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,6 +18,8 @@ export default ({ text, onClick }) => {
 		</div>
 	);
 };
+
+export default BigButton;
 
 // modulate to BigButton.scss
 const containerStyle = {

@@ -22,3 +22,23 @@ class HTTPError extends Error {
 }
 
 export const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+export const groupBy = (category, data) => {
+	// resetting the data array
+	if (typeof data === 'object') {
+		data = Object.values(data).flat();
+	}
+
+	if (category === 'all') return { all: data };
+
+	const groups = {};
+
+	for (let card of data) {
+		const target = card.info[category];
+
+		if (!groups[target]) groups[target] = [card];
+		else groups[target].push(card);
+	}
+
+	return groups;
+};

@@ -1,0 +1,38 @@
+.Card {
+	position: relative;
+	width: 10rem;
+	display: inline-block;
+	opacity: 1;
+
+	transition: all 500ms;
+}
+
+.selected {
+	opacity: 0.6;
+}
+
+.image {
+	position: relative;
+	width: 100%;
+}
+
+.elixir-image,
+.elixir-value {
+	position: absolute;
+	left: 50%;
+	bottom: 20%;
+
+	width: 40%;
+
+	transform: translate(-50%, 50%);
+}
+
+.elixir-value {
+	font-size: 2.5rem;
+
+	position: absolute;
+	left: 50%;
+	bottom: 15%;
+
+	transform: translate(-50%, 50%);
+}

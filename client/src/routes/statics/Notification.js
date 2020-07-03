@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import './Notification.scss';
+import '../../sass/Notification.scss';
 
 // scripts
-import * as Utils from '../../../scripts/Utils';
+import * as Utils from '../../scripts/Utils';
 
 const Notification = ({ message, resetNotification }) => {
 	const [active, setActive] = useState(false);
