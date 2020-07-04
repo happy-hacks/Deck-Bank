@@ -8,18 +8,11 @@ import Cards from './components/Cards';
 
 const CreateDeck = (props) => {
 	const [category, setCategory] = useState('all');
-	const [deck, setDeck] = useState([]);
-
-	// not implemented
-	const handleDeck = (card) => {
-		if (deck.length === 8) return console.error('notification:: deck is full');
-		setDeck((previous) => [...previous, card]);
-	};
 
 	return (
 		<Route {...props}>
 			<CreateDeckHeader {...props} setCategory={setCategory} />
-			<Deck deck={deck} />
+			<Deck />
 			<Cards category={category} />
 		</Route>
 	);

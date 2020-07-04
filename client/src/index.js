@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// libraries
+import { CookiesProvider } from 'react-cookie';
+
 // competent
 import Router from './routes/Router';
 
@@ -9,7 +12,9 @@ import * as serviceWorker from './scripts/serviceWorker';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<Router />
+		<CookiesProvider>
+			<Router />
+		</CookiesProvider>
 	</React.StrictMode>,
 	document.getElementById('root')
 );

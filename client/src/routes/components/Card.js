@@ -1,11 +1,26 @@
 import React, { useState } from 'react';
 import '../../sass/Card.scss';
 
+// libraries
+import { useCookies } from 'react-cookie';
+
 const Card = ({ data }) => {
 	const [selected, setSelected] = useState(false);
+	const [cookies, setCookie, removeCookie] = useCookies();
+
+	// removeCookie('deck');
 
 	const handleClick = () => {
 		setSelected((previous) => !previous);
+
+		if (cookies.deck && cookies.deck.length === 8) return console.error('notification:: deck is full');
+
+		const key = data['api-code'];
+
+		if (!cookies.deck) setCookie('deck', { key: data }, { path: '/' });
+		else setCookie('deck', { ...cookies.deck, key: data }, { path: '/' });
+
+		console.log(cookies.deck);
 	};
 
 	return (
