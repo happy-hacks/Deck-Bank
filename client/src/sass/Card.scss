@@ -1,63 +1,63 @@
 .Card {
-	position: relative;
-	width: 8rem;
-	display: inline-block;
-	opacity: 1;
+    position: relative;
+    width: 8rem;
+    display: inline-block;
+    opacity: 1;
 
-	margin: 0.5rem;
+    margin: 0.5rem;
 
-	transition: all 500ms;
+    transition: all 500ms;
 
-	&.selected {
-		opacity: 0.6;
-	}
+    &.selected {
+        opacity: 0.6;
+    }
+
+    &:hover {
+        filter: drop-shadow(0 0 0.6rem #fff);
+    }
 }
 
-.Card:hover {
-	filter: drop-shadow(0 0 0.6rem #fff);
-}
-
-.image {
-	position: relative;
-	width: 100%;
+.Card .image {
+    position: relative;
+    width: 100%;
 }
 
 .elixir-image,
 .elixir-value {
-	position: absolute;
-	left: 50%;
-	bottom: 20%;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
 
-	width: 40%;
+    width: 40%;
 
-	transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
 }
 
 .elixir-value {
-	font-size: 2rem;
+    font-size: 2rem;
 
-	position: absolute;
-	left: 50%;
-	bottom: 15%;
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
 
-	transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
 }
 
 .template-card {
-	height: 6rem;
-	padding: 0.5rem;
+    height: 4rem;
+    padding: 0.5rem;
 
-	background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 
-	border: 1px solid #fff;
-	border-radius: 0.6rem;
+    border: 1px solid #fff;
+    border-radius: 0.6rem;
 
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-	span {
-		font-size: 1rem;
-	}
+    span {
+        font-size: 1rem;
+    }
 }

@@ -5,15 +5,26 @@ import '../sass/CreateDeck.scss';
 import { TransitionRoute as Route } from './statics/Transition';
 import Deck from './components/Deck';
 import Cards from './components/Cards';
+import Notification from './statics/Notification';
 
 const CreateDeck = (props) => {
 	const [category, setCategory] = useState('all');
+	const [notification, setNotification] = useState(false);
+
+	const handleNotification = (message) => {
+		setNotification(message);
+	};
+
+	const resetNotification = () => {
+		setNotification(false);
+	};
 
 	return (
 		<Route {...props}>
 			<CreateDeckHeader {...props} setCategory={setCategory} />
-			<Deck />
+			<Deck handleNotification={handleNotification} />
 			<Cards category={category} />
+			{notification && <Notification message={notification} resetNotification={resetNotification} />}
 		</Route>
 	);
 };

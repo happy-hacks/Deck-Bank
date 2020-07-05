@@ -1,0 +1,27 @@
+.Deck {
+	margin: 1rem;
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+
+	.cards {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+
+	.deck-toolbar {
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+
+		font-size: 2rem;
+
+		& > * {
+			cursor: pointer;
+		}
+	}
+}

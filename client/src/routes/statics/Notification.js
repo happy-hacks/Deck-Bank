@@ -20,7 +20,7 @@ const Notification = ({ message, resetNotification }) => {
 
 	useEffect(() => {
 		notificationCycle();
-	}, []);
+	}, [notificationCycle]);
 
 	return (
 		<div className="Notification" style={{ right: active ? '-1rem' : '-100%' }}>

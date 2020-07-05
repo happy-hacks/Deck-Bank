@@ -472,7 +472,7 @@
 	"battle-healer": {
 		"name": "Battle Healer",
 		"image-url": "https://api-assets.clashroyale.com/cards/300/KdwXcoigS2Kg-cgA7BJJIANbUJG6SNgjetRQ-MegZ08.png",
-		"api-code": 26000066,
+		"api-code": 26000068,
 		"info": { "elixir": 4, "type": "troop", "arena": 12, "rarity": "rare" },
 		"stats": { "targets": "ground", "range": "melee", "hit speed": 1.5, "speed": "medium" }
 	},

@@ -30,6 +30,20 @@ const Cards = ({ category }) => {
 	// sort by - hitpoints, damage & speed
 	// const sortBy = () => {};
 
+	// ATT:: fixing
+	/*
+	if (category === 'rarity') {
+		const ordered = {};
+		Object.keys(cards)
+			.sort()
+			.forEach(function (key) {
+				ordered[key] = cards[key];
+			});
+
+		setCards(ordered);
+	}
+	*/
+
 	const groups = Object.entries(cards).map(([name, data], index) => <CardGroup name={name} group={data} category={category} key={index} />);
 
 	return <main>{groups}</main>;

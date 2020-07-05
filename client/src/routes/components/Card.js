@@ -1,27 +1,40 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../../sass/Card.scss';
 
 // libraries
 import { useCookies } from 'react-cookie';
 
-const Card = ({ data }) => {
+const Card = ({ data, atDeck }) => {
 	const [selected, setSelected] = useState(false);
-	const [cookies, setCookie, removeCookie] = useCookies();
+	const [cookies, setCookie] = useCookies();
 
-	// removeCookie('deck');
+	const key = data['api-code'];
+	const deck = { ...cookies.deck } || {};
 
 	const handleClick = () => {
-		setSelected((previous) => !previous);
+		if (!deck) {
+			setSelected(true);
+			deck[key] = data;
+			return setCookie('deck', deck, { path: '/' });
+		}
 
-		if (cookies.deck && cookies.deck.length === 8) return console.error('notification:: deck is full');
+		if (deck[key]) {
+			setSelected(false);
+			delete deck[key];
+			return setCookie('deck', deck, { path: '/' });
+		}
 
-		const key = data['api-code'];
+		if (Object.keys(deck).length === 8) return console.error('notification:: deck is full');
 
-		if (!cookies.deck) setCookie('deck', { key: data }, { path: '/' });
-		else setCookie('deck', { ...cookies.deck, key: data }, { path: '/' });
-
-		console.log(cookies.deck);
+		setSelected(true);
+		deck[key] = data;
+		return setCookie('deck', deck, { path: '/' });
 	};
+
+	useEffect(() => {
+		const isSelected = !atDeck && deck && deck[key];
+		setSelected(isSelected);
+	}, [deck]);
 
 	return (
 		<div className={selected ? 'Card selected' : 'Card'} onClick={handleClick}>
