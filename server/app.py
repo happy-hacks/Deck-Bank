@@ -15,6 +15,8 @@ def cards():
     with open('cards.json', 'r') as file:
         data = json.load(file)
 
+    data = [{'id': key, **value} for key, value in data.items()]
+
     return jsonify(data)
 
 
@@ -60,15 +62,51 @@ def sign_up():
         return jsonify('authorized'), 202
 
 
-@app.route('/deck')
+@app.route('/deck', methods=['POST'])
 def deck():
-    # GET, PUT, UPDATE & DELETE
-    pass
+    username = request.json['username']
+    deck_name = request.json['deck-name']
+    deck = request.json['deck']
+
+    if len(deck) != 8:
+        return jsonify('not enough cards - 8 cards are required'), 400
+
+    with open('decks.json', 'r') as file:
+        data = json.load(file)
+
+    try:
+        data[username][deck_name] = deck
+    except:
+        data[username] = {}
+        data[username][deck_name] = deck
+
+    with open('decks.json', 'w') as file:
+        json.dump(data, file)
+
+    return jsonify(data), 200
 
 
-@app.route('/decks')
+@app.route('/decks', methods=['POST'])
 def decks():
-    pass
+    username = request.json['username']
+
+    with open('decks.json', 'r') as file:
+        data = json.load(file)
+
+    try:
+        decks = data[username]
+    except:
+        return jsonify('user not found'), 404
+
+    with open('cards.json', 'r') as file:
+        data = json.load(file)
+
+    response = {}
+
+    for key, deck in decks.items():
+        response[key] = [data[card_id] for card_id in deck]
+
+    return jsonify(response), 200
 
 
 @app.route('/profile')

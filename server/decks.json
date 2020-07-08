@@ -1,5 +1,1 @@
-{
-	"username": {
-		"deck 1": ["api-code 1", "api-code 2", "..."]
-	}
-}
+{"stephan": {"my deck": ["archers", "goblins", "giant", "p.e.k.k.a", "minions", "balloon", "golem", "valkyrie"]}, "tobias": {"my deck": ["archers", "goblins", "giant", "p.e.k.k.a", "minions", "balloon", "golem", "valkyrie"], "my new deck": ["prince", "giant-skeleton", "giant", "royal-giant", "minions", "dark-prince", "electro-wizard", "battle-ram"], "awesome deck": ["ram-rider", "flying-machine", "giant", "royal-hogs", "minions", "dark-prince", "battle-healer", "mortar"], "some new deck": ["golem", "night-witch", "lumberjack", "tornado", "clone", "skeleton-army", "firecracker", "zap"], "det ved jeg ikke": ["archers", "balloon", "giant", "p.e.k.k.a", "golem", "musketeer", "bomber", "skeleton-army"]}}

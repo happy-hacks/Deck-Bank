@@ -13,8 +13,7 @@ const Cards = ({ category }) => {
 	const getCards = async () => {
 		const response = await fetch('http://127.0.0.1:5000/cards');
 		const json = await response.json();
-		const data = Object.values(json); // server backend (python) maybe?
-		const group = groupBy(category, data);
+		const group = groupBy(category, json);
 		setCards(group);
 	};
 

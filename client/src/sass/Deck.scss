@@ -1,3 +1,5 @@
+@import 'Variables.scss';
+
 .Deck {
 	margin: 1rem;
 
@@ -22,6 +24,34 @@
 
 		& > * {
 			cursor: pointer;
+		}
+	}
+
+	.deck-header {
+		width: 100%;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: baseline;
+	}
+
+	.input-deck-name {
+		background-color: transparent;
+		border: none;
+		color: #fff;
+
+		font-size: 2rem;
+
+		font-family: $super-cell-font;
+		padding: 0.5rem;
+
+		&::placeholder {
+			color: #fff;
+			opacity: 0.8;
+		}
+
+		&:focus {
+			outline: none;
+			background-color: rgba(0, 0, 0, 0.2);
 		}
 	}
 }

@@ -8,7 +8,7 @@ const Card = ({ data, atDeck }) => {
 	const [selected, setSelected] = useState(false);
 	const [cookies, setCookie] = useCookies();
 
-	const key = data['api-code'];
+	const key = data['id'];
 	const deck = { ...cookies.deck } || {};
 
 	const handleClick = () => {
@@ -45,7 +45,7 @@ const Card = ({ data, atDeck }) => {
 	);
 };
 
-export const TemplateCard = () => {
+export const TemplateCard = (E) => {
 	return (
 		<div className="template-card">
 			<span>empty</span>

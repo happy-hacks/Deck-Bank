@@ -9,14 +9,19 @@ import { faShare, faShareAlt, faTint, faTrash, faSave } from '@fortawesome/free-
 // components
 import Card, { TemplateCard } from './Card';
 
+// script
+import { fetchJson } from '../../scripts/Utils';
+
 const Deck = () => {
 	const [deck, setDeck] = useState([]);
 	const [deckUrl, setDeckUrl] = useState('');
+	const [deckName, setDeckName] = useState('');
 	const [averageElixir, setAverageElixir] = useState(0);
 	const [cookies, setCookie, removeCookie] = useCookies();
 
 	useEffect(() => {
 		setDeck(cookies.deck ? Object.values(cookies.deck) : []);
+		setDeckName(cookies.deckName ? cookies.deckName : []);
 		if (cookies.deck) {
 			setDeckUrl(handleGetDeck());
 		}
@@ -36,7 +41,7 @@ const Deck = () => {
 	const handleAverageElixir = () => {
 		const total = deck.reduce((accumulator, card) => accumulator + card.info.elixir, 0);
 		const amount = deck.length;
-		const average = (total / amount).toFixed(2);
+		const average = (total / amount).toFixed(1);
 
 		setAverageElixir(average);
 	};
@@ -47,8 +52,25 @@ const Deck = () => {
 	};
 
 	// ATT:: not implemented
-	const handleSave = () => {
-		console.log('save');
+	const handleSave = async () => {
+		if (!cookies.deck) return console.error('no deck detected');
+		if (Object.keys(cookies.deck).length != 8) return console.error('8 cards is required');
+		if (!deckName) return console.error('deck name is required');
+
+		const deck = Object.keys(cookies.deck);
+
+		const method = 'POST';
+		const url = 'http://localhost:5000/deck';
+
+		// body from cookies
+		const body = {
+			username: 'tobias',
+			'deck-name': deckName,
+			deck: deck,
+		};
+
+		const response = await fetchJson(method, url, body);
+		console.log(response);
 	};
 
 	// ATT:: not implemented
@@ -66,12 +88,19 @@ const Deck = () => {
 		return api_url;
 	};
 
+	const nameHandler = (event) => {
+		setDeckName(event.target.value);
+	};
+
 	return (
 		<div className="Deck">
-			<span>
-				avg elixir {averageElixir}
-				<FontAwesomeIcon icon={faTint} />
-			</span>
+			<div className="deck-header">
+				<input type="text" value={deckName} onChange={nameHandler} className="input-deck-name" placeholder="deck name here..." />
+				<span>
+					avg elixir {averageElixir}
+					<FontAwesomeIcon icon={faTint} />
+				</span>
+			</div>
 			<div className="cards">{getCards()}</div>
 			<div className="deck-toolbar">
 				<div onClick={handleReset}>
@@ -89,10 +118,10 @@ const Deck = () => {
 					share
 				</div>
 
-				<div onClick={() => {}}>
+				<a href="" target="_blank">
 					<FontAwesomeIcon icon={faShare} />
 					get
-				</div>
+				</a>
 			</div>
 		</div>
 	);
